@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: 'carro';
+    src: url(fontes/MAGNETOB.TTF);
+}
+@font-face {
+    font-family: 'marcas';
+    src: url(fontes/Shorelines\ Script\ Bold.otf);
+}
+:root {
+    --cor_div: #8b1c00cf;
+    --cor-sombra: #585252;
+
+    --fonte_principal: 'carro';
+    --font_slogan: 'Open Sans';
+    --font_marcas: 'marcas';
+}
+
+div#mae_vermelho_transparente {
+    position: absolute;
+    left: 11%;
+    margin-left: -120px;
+    top: 35%;
+    margin-top: -75px;
+    width: 50%;
+    height: 50%;
+    color: #FFF;
+}
+
+div#mae_vermelho_transparente > img {
+    position: relative;
+    left: -7%;
+    top: -50%;
+    width: 156.2%;
+}
+
+div#vermelho_transparente {
+    background-color: var(--cor_div);
+    width: 156.2%;
+    height: 200%;
+    position: absolute;
+    top: -50%;
+    left: -7%;
+}
+
+div#vermelho_transparente > p#p_invisivel {
+    display: none;
+}
+
+div#vermelho_transparente > h1 {
+    text-align: center;
+    font-family: var(--fonte_principal);
+    font-size: 72px;
+
+    position: absolute;
+    top: 22%;
+    left: 29%;
+    
+}
+
+div#vermelho_transparente > p {
+    font-size: 41px;
+    font-family: var(--font_slogan);
+
+    position: absolute;
+    top: 38%;
+    left: 29%;
+}
+
+div#div_ferrari {
+    position: absolute;
+    left: 77.8%;
+    top: 0%;
+    background-color: white;
+    width: 22.2%;
+    height: 25%;
+    border-bottom: 1px solid #5a4d4d;
+}
+
+div#div_ferrari > img {
+    position: absolute;
+    left: 43%;
+    top: 30%;
+}
+
+
+div#div_ferrari:hover {
+    transition: 1s;
+    opacity: 0;
+}
+
+div#div_ferrari_hover {
+    position: absolute;
+    left: 77.8%;
+    top: 0%;
+    background-color: #8b1c00;
+    width: 22.2%;
+    height: 25%;
+}
+
+div#div_ferrari_hover > p {
+    position: absolute;
+    top: 17%;
+    left: 35%;
+
+    color: white;
+    font-family: var(--font_marcas);
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#div_lamborghini {
+    position: absolute;
+    left: 77.8%;
+    top: 25.2%;
+
+    height: 25%;
+    width: 22.2%;
+    background-color: white;
+}
+
+div#div_lamborghini_hover {
+    position: absolute;
+    left: 77.8%;
+    top: 25.2%;
+
+    background-color: #b48105;
+    height: 25%;
+    width: 22.2%;
+}
+
+div#div_lamborghini_hover > p {
+    position: absolute;
+    top: 30%;
+    left: 34%;
+
+    color: white;
+    font-family: var(--font_marcas);
+    font-weight: bold;
+}
+
+div#div_lamborghini:hover {
+    transition: 1s;
+    opacity: 0;
+}
+
+div#div_lamborghini > img {
+    position: absolute;
+    left: 43%;
+    top: 34%;
+    width: 50px;
+    height: 65px;
+}

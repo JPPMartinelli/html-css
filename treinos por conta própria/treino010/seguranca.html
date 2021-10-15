@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança</title>
+
+    <style>
+        body {
+            background-image: linear-gradient(228deg, #bab8b5,#bab8b5, #000000);
+            font-family: Arial, Helvetica, sans-serif;
+            background-attachment:fixed;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 21px;
+        }
+        p {
+            margin-left: 5px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 7px;
+            margin-top: 0px;
+        }
+
+        .div_moldura {
+            width: 100px;
+            height: 100px; 
+
+            border: 3px solid black;
+            border-radius: 10px;
+            
+            margin-top: 36px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+
+        .div_principal {
+            width: 115px;
+            margin:auto
+        }
+
+        .div_dados_jp {
+            background-color: rgb(172, 170, 170);
+            border-radius: 7px;
+            width: 200px;
+            text-align: left;
+            margin-left: 300px;
+            margin-top: -157px;
+            display: none;
+            box-shadow: 10px 5px 5px black;
+            padding: 1px;
+        }
+
+        .div_principal:hover > .div_dados_jp {
+            display: block;
+        }
+        
+        #p1::after {
+            content: '21/05/2021';
+        }
+
+        #p2::after {
+            content: '21/05/2021';
+        }
+
+        #p3::after {
+            content: '1';
+        }
+
+        .div_principal:active > .div_dados_jp {
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+        
+         <h1>Quem deseja usar?</h1>
+
+        <div class="div_principal">
+
+            <div class="div_moldura">  <!--div que será a moldura--> 
+                
+                <div class="div_jp">
+                    <img class="img" src="imagens/WhatsApp Image 2021-07-19 at 11.03.41.jpeg" alt="Eu">
+                    <p>João Pedro</p>
+                </div>
+
+            </div>
+
+            <div class="div_dados_jp">
+                <h1>Dados</h1>
+                <p id="p1">Último acesso:&nbsp</p>
+                <p id="p2">Data de criação:&nbsp</p>
+                <p id="p3">Números de acesso:&nbsp</p>
+            </div>
+
+            <div>
+
+            </div>
+
+        </div>
+</body>
+</html>

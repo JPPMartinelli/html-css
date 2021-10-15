@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+     }
+
+h1 {
+    color: gray;
+    background-color: rgb(75, 71, 71);
+   }
+
+h2 {
+    color: gray;
+   }
+
+p {
+    color: white;
+    text-align: justify;
+  }

@@ -25,7 +25,8 @@ div#mae_vermelho_transparente {
     margin-top: -75px;
     width: 50%;
     height: 50%;
-    color: #FFF;
+    background-color: #8b1c00;
+    color: white;
 }
 
 div#mae_vermelho_transparente > img {
@@ -36,7 +37,8 @@ div#mae_vermelho_transparente > img {
 }
 
 div#vermelho_transparente {
-    background-color: var(--cor_div);
+    background-image: url(imagens/ferrari2_1200x753.jpeg);
+    background-position: center;
     width: 156.2%;
     height: 200%;
     position: absolute;
